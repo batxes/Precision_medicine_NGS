@@ -41,14 +41,14 @@ Each task is structured with code, outputs, and a final report summarizing insig
 ---
 
 ## 📁 Repository Structure
-
+```
 targeted-ngs-analysis/
-├── task1_rna_seq/
+├── rna_seq/
 │ ├── bam_files/
 │ ├── scripts/
 │ ├── figures/
 │ └── Task1_Report.pdf
-├── task2_dna_amplicon/
+├── amplicon/
 │ ├── fastq/
 │ ├── bam/
 │ ├── scripts/
@@ -56,21 +56,19 @@ targeted-ngs-analysis/
 │ └── Task2_Report.pdf
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
 
 ## 📄 How to Use
 
 1. Clone the repository and install dependencies:
-   ```bash
-    git clone https://github.com/yourusername/targeted-ngs-analysis.git
-    cd targeted-ngs-analysis
+    ```
+    git clone https://github.com/batxes/Precision_medicine_NGS.git
+    cd Precision_medicine_NGS/RNA-seq #or Amplicon
     pip install -r requirements.txt
-```
-
+    ```
 2. Run the analysis notebooks or scripts found in each task folder.
-
 3. Open the reports in PDF format for a detailed description of the analysis, figures, and interpretations.
 
 
