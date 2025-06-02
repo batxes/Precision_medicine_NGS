@@ -1,0 +1,6 @@
+pandas
+pysam
+pybedtools
+matplotlib
+sh
+scipy

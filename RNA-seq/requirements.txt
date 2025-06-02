@@ -1,0 +1,7 @@
+jupyter
+ipykernel
+pandas
+matplotlib
+seaborn
+pybedtools
+umi_tools
